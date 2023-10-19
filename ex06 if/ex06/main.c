@@ -1,5 +1,16 @@
 int main(int argc, char const *argv[])
 {
-    printf("Hello World");
+   
+float m;
+
+printf("insira a nota: \n");
+scanf("%f", &m);
+
+if ( m >= 5.0)
+{
+   printf("Aprovado(a)!!\n");
+}
+
+   
     return 0;
 }
