@@ -8,12 +8,10 @@ int main(int argc, char const *argv[])
     
     for (i=0; i<5; i++)
     {
-        s = v[i];
+        s += v[i];
     }
     
    printf("Resultado: %.2f\n", s/5);
    
-   
-
     return 0;
 }
