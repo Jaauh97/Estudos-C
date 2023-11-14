@@ -103,11 +103,31 @@ void ex04(){
 	
 }
 
+void ex05()
+{
+	int mes;
+	
+	printf("Digite O numero de um mes , e saiba quantos dias ele tem");
+	scanf("%d", &mes);
+	
+	switch(mes){
+		case 1: //janeiro
+		printf("Janeiro - 30 Dias");
+		break;
+		
+		case 2://fevereiro
+		printf("Fevereiro - 28 Dias");
+		break;
+		
+	}
+}
 int main(int argc, char *argv[]) {
-	
-	
-
-ex04();
+  
+  
+  //ex01();	
+ //ex02();	
+//ex03();
+//ex04();
 	
 
 	
