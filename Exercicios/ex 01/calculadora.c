@@ -1,24 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
-int main(int argc, char *argv[]) {
-
-float x=0,y=0, resultado=0;
+int main(int argc, char const *argv[])
+{
+    float x=0,y=0, resultado=0;
     int op=0;
 
 
     do
     {
        printf("\n\t1 - SOMA\n\t2 - SUBTRACAO\n\t3 - MULTIPLICACAO\n\t4 - DIVISAO\n\t");
-       scanf("%i",&op);
+       scanf("%i",&op)
        printf("Digite o Primeiro Numero\n");
        scanf("%f", &x);
        printf("Digite O Segundo Numero\n");
        scanf("%f", &y);
-       
-	   switch (op)
+       switch (op)
        {
         case 1:
        resultado = x+y;
@@ -48,9 +43,9 @@ float x=0,y=0, resultado=0;
        scanf("%i", &op);
 
     } while (op == 1);
+    
 
 
 
-
-	return 0;
+    return 0;
 }
