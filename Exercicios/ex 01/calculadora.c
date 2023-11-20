@@ -7,10 +7,13 @@ int main(int argc, char const *argv[])
 
     do
     {
+       
        printf("\n\t1 - SOMA\n\t2 - SUBTRACAO\n\t3 - MULTIPLICACAO\n\t4 - DIVISAO\n\t");
        scanf("%i",&op);
+
        printf("Digite um Numero:\n");
        scanf("%f", &x);
+       
        printf("Digite O Segundo Numero\n");
        scanf("%f", &y);
        switch (op)
